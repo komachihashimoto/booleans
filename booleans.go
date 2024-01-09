@@ -12,4 +12,6 @@ func main() {
 	c := 2
 	d := 5
 	fmt.Printf("c!=dの値は%t\n", c!=d)
+	fmt.Printf("c<dの値は%t\n", c<d)
+	fmt.Printf("(-c)<(-d)の値は%t\n", (-c)<(-d))
 }
