@@ -8,4 +8,8 @@ func main() {
 
 	b := false
 	fmt.Printf("a==bの値は%t\n", a == b)
+
+	c := 2
+	d := 5
+	fmt.Printf("c!=dの値は%t\n", c!=d)
 }
